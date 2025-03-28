@@ -10,7 +10,7 @@ const footerLinks = [
 export default function Footer() {
     return (
         <section className="py-16">
-            <div className="container">
+            <div className="container md:flex items-center justify-between">
                 <div className="flex flex-col md:flex-row items-center md:justify-between gap-6">
                     <Image src={logoImage} alt="layers logo"/>
                 </div>
